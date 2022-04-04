@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Lab Grotesque;
+    src: url(/fonts/LabGrotesque-Regular.eot);
+    src: url(/fonts/LabGrotesque-Regular.woff2) format("woff2"),url(/fonts/LabGrotesque-Regular.woff) format("woff"),url(/fonts/LabGrotesque-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Lab Grotesque;
+    font-weight: 500;
+    src: url(/fonts/LabGrotesque-Medium.eot);
+    src: url(/fonts/LabGrotesque-Medium.woff2) format("woff2"),url(/fonts/LabGrotesque-Medium.woff) format("woff"),url(/fonts/LabGrotesque-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Lab Grotesque;
+    font-weight: 700;
+    src: url(/fonts/LabGrotesque-Bold.eot);
+    src: url(/fonts/LabGrotesque-Bold.woff2) format("woff2"),url(/fonts/LabGrotesque-Bold.woff) format("woff"),url(/fonts/LabGrotesque-Bold.ttf) format("truetype")
+}
+
+body, html {
+    font-family: Lab Grotesque,sans-serif;
+    height: 100%;
+}
+
+h1, h2, label, p {
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.2em;
+}
+
+.bg-image {
+    background-image: url("/images/dawn-landing-bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    padding-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.logo {
+    width: auto;
+    height: 42px;
+    padding: 0 0 8px 10px;
+}
+
+.mc-form {
+    margin-top: 30px;
+}
+
+.bottom-text {
+    margin-top: 40px;
+}
+
+.indicates-required {
+    color: #fff;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    background-color: transparent;
+}
+
+.brandingLogo {
+    display: none;
+}
+
+#mc_embed_signup {
+    background-color: #1c1f2c5b;
+    border-radius: 10px;
+    clear: left;
+    font-size: 14px;
+}
+
+#mc_embed_signup .button {
+    width: 96%;
+    margin-top: 10px;
+    height: auto;
+    padding: 4px 22px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px) { 
+    #mc_embed_signup {
+        width: 400px;
+        margin: 0 auto;
+    }
+ }
+
